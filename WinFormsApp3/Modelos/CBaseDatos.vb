@@ -19,7 +19,7 @@ Namespace Modelos
 
         Protected Overrides Sub OnConfiguring(optionsBuilder As DbContextOptionsBuilder)
             'TODO /!\ To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-            optionsBuilder.UseSqlServer("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\cursovb2023\WinFormsApp3\WinFormsApp3\base2012.mdf;Integrated Security=True;Connect Timeout=30")
+            optionsBuilder.UseSqlServer("Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\cursovb2023\WinFormsApp3\WinFormsApp3\base2012.mdf;Integrated Security=True")
         End Sub
 
         Protected Overrides Sub OnModelCreating(modelBuilder As ModelBuilder)
