@@ -1,8 +1,6 @@
 # vb20231004_1
 Tome los archivos de la base de datos, y arrastrelos y sueltelos en el explorador de solución
 
-
-
 ## Para instalar las herramientas para conectarme a la base de datos
 
 Ejecutar esto en la consola de administracion de paquetes (Herramientas -> admin paquetes nuget -> consola)
