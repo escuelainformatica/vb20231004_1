@@ -54,3 +54,14 @@ Scaffold-DbContext "****" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Mod
 Opcionalmente, en el explorador de solución, cambiar en la carpeta models, el archivo con nombre largo
 
 ![img6.jpg](img6.jpg)
+
+
+## listar una tabla
+
+
+```vbdotnet
+Dim productos As New List(Of Producto) ' crear una variable de lista de una tabla.
+Dim con As New CBaseDatos() ' luego, voy a crear una variable con el nombre de la conexion
+productos = con.Productos.ToList() ' EntityFrameworks conexion->tabla productos->obtener como listado
+DataGridView1.DataSource = productos ' por ultimo, puedo mostrarlo en una grilla.
+```
